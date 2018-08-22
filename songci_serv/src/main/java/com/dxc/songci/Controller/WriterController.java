@@ -1,4 +1,4 @@
-package Controller;
+package com.dxc.songci.Controller;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;

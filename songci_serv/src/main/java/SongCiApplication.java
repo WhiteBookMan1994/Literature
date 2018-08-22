@@ -1,4 +1,4 @@
-package Controller;
+package com.dxc.songci.Controller;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
