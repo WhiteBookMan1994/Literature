@@ -14,6 +14,11 @@ public class WriterServiceImpl implements WriterService{
 
     @Override
     public int addWriter(TbWriter tbWriter) {
-        return tbWriterMapper.insertSelective(tbWriter);
+        return 0;//tbWriterMapper.insertSelective(tbWriter);
+    }
+
+    @Override
+    public TbWriter queryByName(String name) {
+        return tbWriterMapper.selectByName(name);
     }
 }
